@@ -1,0 +1,41 @@
+.Navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    height: 60px;
+    background-color: #BC525E;
+    
+    position: sticky;
+    top: 0;
+}
+
+.Navbar_Logo {
+    height: 55px;
+}
+
+.NavbarLinks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.Navbar_links_link{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+
+.Navbar_links_link:hover{
+    color: #5cc3ff;
+}
+
+@media (min-width: 768px) {
+    .Navbar{
+      padding: 0 6 rem;
+      box-shadow: 0 0 10px rgb(0, 0, 0, 0.5);  
+    }
+}
