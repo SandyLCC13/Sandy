@@ -1,0 +1,17 @@
+[33mcommit e16b9dce12c53b6e4695edd6b6536b7d7c74acbc[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: SandyLCC13 <133474070+SandyLCC13@users.noreply.github.com>
+Date:   Tue Apr 23 17:44:20 2024 -0600
+
+    Navbar and basic config
+
+[33mcommit 87f4622263d92710bf6209b12e742f48a29f36ff[m
+Author: SandyLCC13 <133474070+SandyLCC13@users.noreply.github.com>
+Date:   Tue Apr 2 21:31:49 2024 -0600
+
+    text
+
+[33mcommit 4926b422e3dbca9a935f9fe3a490b5fcadc92aac[m
+Author: SandyLCC13 <133474070+SandyLCC13@users.noreply.github.com>
+Date:   Tue Apr 2 20:55:54 2024 -0600
+
+    Initialize project using Create React App

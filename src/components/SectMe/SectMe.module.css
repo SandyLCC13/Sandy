@@ -1,0 +1,62 @@
+.SectMe {
+  display: flex;
+  Min-width: 100dvh;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+
+.SectMe_inf {
+  width: 100%;
+}
+
+.SectMe_cont{
+  background-color:#C3E9FF;
+  border-radius: 20px 0px 0px 20px ;
+  text-align: left;
+  padding: 1% 8% 1% 8%;
+  
+}
+
+.SectMe_title{
+  font-size: 1.8rem;
+  margin: 0%;
+} 
+
+.SectMe_subtitle {
+  font-size: 1.2rem;
+  margin: 0;
+  
+}
+
+.SectMe_wrapper{
+  width: 100%;
+}
+
+
+
+@media (min-width: 768px){
+    .SectMe {
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0;
+        height: calc(100dvh - 60px) ;
+    }
+    
+    .SectMe_inf {
+      padding: 64px 64px 64px 100px ;
+      width: 45%;
+    }
+
+    .SectMe_wrapper{
+      width: 60%;
+      height: 100%;
+    }
+
+    .SectMe_iwrapper{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+}

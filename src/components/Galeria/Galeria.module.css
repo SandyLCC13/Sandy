@@ -1,0 +1,26 @@
+.Galeria_fotos {
+    Min-width: 100dvh;
+  
+
+}
+
+.Galeria_fotos {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-top: 100px; 
+}
+
+.Galeria_I {
+    width: 18%;
+    margin: 30px;
+    border-radius:25px;
+    align-items: center;
+}
+
+.Galeria_I:hover {
+    cursor: pointer;
+    transform: rotatey(180deg);
+    transform-style: preserve-3d;
+    transition: 0.5s in;
+}

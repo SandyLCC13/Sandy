@@ -1,0 +1,38 @@
+.Colec{
+    display: flex;
+    width: 100%;
+    justify-content: center; 
+    min-height: calc(100dvh - 60px) ;
+    align-items: center;
+}
+
+.Colec_cont {
+    flex-direction:row;
+    text-align: center;
+    padding: 100px 100px;
+    margin-left: 100px;
+}
+
+.Colec_title{
+    font-size: 1.6rem;
+    margin: 0%;
+}
+.Colec_subtitle{
+    font-size: larger;
+    margin: 0%;
+}
+
+.Colec_text{
+    font-size: x-large;
+}
+.Colec_wrapper{
+    width: 100%;
+    height: 100%;
+    margin-right: 100px;
+}
+
+.Colec_iwrapper {
+    width: 80%;
+    height: 100%;
+    
+}

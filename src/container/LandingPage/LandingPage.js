@@ -1,13 +1,16 @@
 
-import { Navbar } from "../../components";
-
-import css from './LandingPage.module.css'
+import { Navbar, SectMe, Galeria, Estilo, Colec, Video, Registro } from "../../components"
 
 const LandingPage = () => {
     return (
         <div>
             <Navbar />
-            <h1>LandingPage</h1>
+            <SectMe />
+            <Galeria />
+            <Estilo />
+            <Colec />
+            <Video />
+            <Registro />
         </div>
     )
 }

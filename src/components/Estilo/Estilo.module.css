@@ -1,0 +1,35 @@
+.Estilo {
+    display: flex;
+    background-color: #BC525E; 
+    color: #fff;
+}
+
+
+.Estilo_I7{
+    width: 800px;
+    padding: 50px;
+    object-fit: contain;
+}
+
+.Estilo_title{
+    text-align: center;
+}
+
+
+.Estilotext {
+    font-size: small;
+    margin-right: 50px;
+   
+}
+
+
+h2{
+    font-size: medium;
+    margin: 1.5%;
+    text-align: center;
+}
+
+p {
+    margin: 0;
+    text-align: justify;
+}
